@@ -48,7 +48,7 @@ body .header {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 60vh;
     position: relative;
     top: 0;
     left: 0;
@@ -56,9 +56,12 @@ body .header {
   .call_to_action button {
     position: absolute;
     top: auto;
-    left: auto;
+    left: 30%;
+    margin-top: 20px;
   }
   .call_to_action h3,p {
     text-align: center;
   }
 }
+
+/* footer section */
