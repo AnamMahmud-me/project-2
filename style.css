@@ -24,6 +24,25 @@ body .header {
   right: 7%;
 }
 
+/* about section */
+#about hr {
+  width: 60px;
+  margin: 0 auto;
+  height: 3px;
+  background-color: rgba(7, 248, 135, 0.87);
+  border: 0;
+  border-radius: 3px;
+}
+
+/* product featuress section */
+#features hr {
+  width: 60px;
+  margin: 0 auto;
+  height: 3px;
+  background-color: rgba(7, 248, 135, 0.87);
+  border: 0;
+  border-radius: 3px;
+}
 
 /* call to action section */
 .call_to_action {
@@ -63,5 +82,56 @@ body .header {
     text-align: center;
   }
 }
+
+/* more features section */
+#more_features hr {
+  width: 60px;
+  margin: 0 auto;
+  height: 3px;
+  background-color: rgba(7, 248, 135, 0.87);
+  border: 0;
+  border-radius: 3px;
+}
+
+/* pricing section */
+#pricing hr {
+  width: 60px;
+  margin: 0 auto;
+  height: 3px;
+  background-color: rgba(7, 248, 135, 0.87);
+  border: 0;
+  border-radius: 3px;
+}
+
+/* faq section */
+#faq hr {
+  width: 60px;
+  margin: 0 auto;
+  height: 3px;
+  background-color: rgba(7, 248, 135, 0.87);
+  border: 0;
+  border-radius: 3px;
+}
+
+/* team section */
+#team hr {
+  width: 60px;
+  margin: 0 auto;
+  height: 3px;
+  background-color: rgba(7, 248, 135, 0.87);
+  border: 0;
+  border-radius: 3px;
+}
+
+/* gallery section */
+#gallery hr {
+  width: 60px;
+  margin: 0 auto;
+  height: 3px;
+  background-color: rgba(7, 248, 135, 0.87);
+  border: 0;
+  border-radius: 3px;
+}
+
 
 /* footer section */
