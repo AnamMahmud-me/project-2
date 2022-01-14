@@ -1,3 +1,10 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
 /* header section */
 body .header {
   background-image: url("img/hero-bg.jpg");
@@ -24,25 +31,51 @@ body .header {
   right: 7%;
 }
 
+nav {
+  background: linear-gradient(45deg, #1de099, #1dc8cd);
+}
+
+
+
 /* about section */
 #about hr {
   width: 60px;
   margin: 0 auto;
   height: 3px;
-  background-color: rgba(7, 248, 135, 0.87);
+  background: linear-gradient(45deg, #1de099, #1dc8cd);
   border: 0;
   border-radius: 3px;
 }
+#about p i {
+  color: #1dc8cd;
+}
+
+
 
 /* product featuress section */
 #features hr {
   width: 60px;
   margin: 0 auto;
   height: 3px;
-  background-color: rgba(7, 248, 135, 0.87);
+  background: linear-gradient(45deg, #1de099, #1dc8cd);
   border: 0;
   border-radius: 3px;
 }
+#features i {
+  color: #1dc8cd;
+}
+
+
+
+/* abvance_feature section */
+.abvance_feature_2 i {
+  color: #1dc8cd;
+}
+.abvance_feature_3 p i {
+  color: #1dc8cd;
+}
+
+
 
 /* call to action section */
 .call_to_action {
@@ -61,6 +94,7 @@ body .header {
   left: 75%;
 }
 
+
 @media only screen and (max-width: 600px) {
   .call_to_action {
     background-image: url(img/call-to-action-bg.jpg);
@@ -75,7 +109,7 @@ body .header {
   .call_to_action button {
     position: absolute;
     top: auto;
-    left: 30%;
+    left: 25%;
     margin-top: 20px;
   }
   .call_to_action h3,p {
@@ -83,55 +117,94 @@ body .header {
   }
 }
 
+
+
 /* more features section */
 #more_features hr {
   width: 60px;
   margin: 0 auto;
   height: 3px;
-  background-color: rgba(7, 248, 135, 0.87);
+  background: linear-gradient(45deg, #1de099, #1dc8cd);
   border: 0;
   border-radius: 3px;
 }
+#more_features .icon i {
+  color: #1dc8cd;
+}
+
+
 
 /* pricing section */
 #pricing hr {
   width: 60px;
   margin: 0 auto;
   height: 3px;
-  background-color: rgba(7, 248, 135, 0.87);
+  background: linear-gradient(45deg, #1de099, #1dc8cd);
   border: 0;
   border-radius: 3px;
 }
+#pricing p i {
+  color: #1dc8cd;
+}
+#pricing p .h3, .h1 {
+  color: #1dc8cd;
+}
+#pricing button {
+  background: linear-gradient(45deg, #1de099, #1dc8cd);
+}
+
+
 
 /* faq section */
 #faq hr {
   width: 60px;
   margin: 0 auto;
   height: 3px;
-  background-color: rgba(7, 248, 135, 0.87);
+  background: linear-gradient(45deg, #1de099, #1dc8cd);
   border: 0;
   border-radius: 3px;
 }
+
+
 
 /* team section */
 #team hr {
   width: 60px;
   margin: 0 auto;
   height: 3px;
-  background-color: rgba(7, 248, 135, 0.87);
+  background: linear-gradient(45deg, #1de099, #1dc8cd);
   border: 0;
   border-radius: 3px;
 }
+
+
 
 /* gallery section */
 #gallery hr {
   width: 60px;
   margin: 0 auto;
   height: 3px;
-  background-color: rgba(7, 248, 135, 0.87);
+  background: linear-gradient(45deg, #1de099, #1dc8cd);
   border: 0;
   border-radius: 3px;
 }
 
 
+
+/* contact section */
+#contact h3, i {
+  color: #1dc8cd;
+}
+#contact button {
+  background: linear-gradient(45deg, #1de099, #1dc8cd);
+}
+
+
+
 /* footer section */
+#footer i {
+  color: #fff;
+}
+#footer button {
+  background: linear-gradient(45deg, #1de099, #1dc8cd);
+}
