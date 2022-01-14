@@ -152,6 +152,9 @@ nav {
 #pricing button {
   background: linear-gradient(45deg, #1de099, #1dc8cd);
 }
+#pricing .princing-item-2 {
+  border: 2px solid #1dc8cd;
+}
 
 
 
